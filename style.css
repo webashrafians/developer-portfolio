@@ -43,5 +43,40 @@ h1{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(90deg, red, orange);
+}
+
+/* experience */
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.experience .half-width{
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 0 10px 1px red;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, red);
+    border-image-slice: 1;
+}
+
+.experience .half-width h3{
+    color: orange;
+}
+
+.experience p{
+    font-weight: 300;
+}
+
+footer p{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
