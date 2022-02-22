@@ -10,6 +10,11 @@ section.header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+section.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
 .container{
     display: flex;
     width: 90%;
